@@ -8,7 +8,7 @@ class DB:
             self.conn = mysql.connector.connect(
                 host='127.0.0.1',
                 user='root',
-                password='Pass@123',
+                password='Enter_Your_DB_password',
                 auth_plugin='mysql_native_password',  # Specify the authentication plugin
                 database='flight'
             )
