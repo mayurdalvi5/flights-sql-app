@@ -70,4 +70,7 @@ elif user_option == 'Analytics':
     st.plotly_chart(fig, theme="streamlit", use_container_width=True)
 
 else:
-    st.title("Tell about the project")
+    st.title("About Project")
+    st.write("""
+    
+Develop a Python application that connects seamlessly to MySQL, extracting crucial flight details like date, departure time, duration, and prices with user-specified source and destination filters. Utilize the acquired data for in-depth analytics, identifying the busiest airports and creating insightful visualizations using Plotly charts. With its user-friendly interface, this project empowers users to effortlessly explore and analyze flight information, serving as a robust tool for making well-informed decisions in the dynamic realm of air travel.""")
